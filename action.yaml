@@ -1,13 +1,13 @@
-name: setup-rearm-cli
-description: Setup RelizaHub CLI, rearm-cli, on GitHub Actions runners
+name: setup-rearm
+description: Setup Rearm CLI, rearm, on GitHub Actions runners
 branding:
   icon: 'terminal'
   color: 'green'
 inputs:
   version:
-    description: Version of rearm-cli to install
+    description: Version of rearm to install
     required: false
-    default: 2023.09.3
+    default: 24.10.15
 runs:
   using: node20
   main: dist/index.js
