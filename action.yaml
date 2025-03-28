@@ -7,7 +7,7 @@ inputs:
   version:
     description: Version of rearm to install
     required: false
-    default: 24.10.15
+    default: 25.03.0
 runs:
   using: node20
   main: dist/index.js
