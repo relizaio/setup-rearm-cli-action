@@ -5,9 +5,9 @@ branding:
   color: 'green'
 inputs:
   version:
-    description: Version of rearm to install
+    description: Version of rearm CLI to install
     required: false
-    default: 25.06.1
+    default: 25.10.2
 runs:
   using: node20
   main: dist/index.js
