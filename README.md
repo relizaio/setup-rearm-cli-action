@@ -11,23 +11,23 @@ Setup the `rearm` CLI:
 
 ```yaml
 steps:
-- uses: relizaio/setup-rearm@1.0
+- uses: relizaio/setup-rearm-cli-action@1.0
 ```
 
 A specific version of the `rearm` CLI can be installed:
 
 ```yaml
 steps:
-- uses: relizaio/setup-rearm@1.0
+- uses: relizaio/setup-rearm-cli-action@1.0
   with:
     version:
-      2022.12.5
+      2025.12.6
 ```
 
 ## Inputs
 The actions supports the following inputs:
 
-- `version`: The version of `rearm` to install, defaulting to `2022.12.5`
+- `version`: The version of `rearm` to install, defaulting to `2025.12.6`
 
 ## Compile
 use ncc to compile
